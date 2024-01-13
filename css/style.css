@@ -19,7 +19,10 @@ img{
 }
 /* ==haeder part style== */
 header{
-    background: rgba(255, 144, 14, 0.10);;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1575%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='url(%26quot%3b%23SvgjsLinearGradient1576%26quot%3b)'%3e%3c/rect%3e%3cpath d='M740.5553882448594 45.87127441127792L806.9493274275151 133.97900759060155 895.0570606068387 67.58506840794591 828.663121424183-20.522664771377734z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M243.217834310866 379.31867177778946L141.85130889646038 375.6821491967502 182.10541563781956 454.68528197706735z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1146.9169677480618 310.8998845605896L1180.0993348813633 177.81267913275698 1047.0121294535306 144.6303119994554 1013.8297623202292 277.71751742728804z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1421.685%2c360.956C1468.786%2c363.824%2c1516.625%2c344.537%2c1540.886%2c304.064C1565.759%2c262.57%2c1560.874%2c210.744%2c1536.925%2c168.71C1512.717%2c126.22%2c1470.575%2c93.745%2c1421.685%2c94.846C1374.328%2c95.913%2c1336.008%2c131.202%2c1315.1%2c173.707C1296.545%2c211.427%2c1304.436%2c254.399%2c1325.231%2c290.932C1346.296%2c327.94%2c1379.181%2c358.368%2c1421.685%2c360.956' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1129.9523591918314 340.7895534100185L977.5190799468354 313.91145352125807 950.6409800580749 466.3447327662541 1103.074259303071 493.2228326550146z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M146.61690196529125 401.1985791714234L85.85600058664903 286.9239438903126-28.4186346944617 347.68484526895486 32.3422666841805 461.95948055006556z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M148.23332157251565 496.5301803054701L190.1163055700664 618.167198020679 311.7533232852753 576.2842140231282 269.87033928772456 454.64719630791933z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M677.3040722181465 163.23486998354352L772.9484691423742 227.74783029719254 741.8170325317956 67.59047305931591z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1575'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='15.28%25' y1='139.29%25' x2='84.72%25' y2='-39.29%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1576'%3e%3cstop stop-color='%230e2a47' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(0%2c 84%2c 158%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 header nav{
     padding: 50px 0;
@@ -30,13 +33,13 @@ header nav .container{
     align-items: center;
 }
 header .left a{
-    color:#131313;
+    color:#ffffff;
     text-align: center;
     font-size: 45px;
     font-weight: 700;
 }
 header .right a{
-    color:#424242;
+    color:#ffffff;
     text-align: center;
     font-size: 18px;
     font-weight: 500;
@@ -49,13 +52,13 @@ header .right a{
     padding-bottom: 50px;
 }
 #banner_part h3{
-    color:#131313;
+    color:#ffffff;
     text-align: center;
     font-size: 64px;
     font-weight: 700;
 }
 #banner_part p{
-    color:#727272;
+    color:#ffffff;
     text-align: center;
     font-size: 16px;
     font-weight: 400;
@@ -67,7 +70,7 @@ header .right a{
 }
 #banner_part .my_btn a{
     padding: 21px 25px;
-    background: #FF900E;
+    background: #2650f5;
     border: none;
     border-radius: 8px;
     color: #FFF;
