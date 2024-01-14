@@ -83,5 +83,67 @@ header .right a{
     border-radius: 8px;
     margin-top: 50px;
 }
-
 /* ==banner part style end== */
+/* ==features_part part style end== */
+#features_part{
+    padding: 90px 0;
+}
+#features_part .container{
+    display: flex;
+}
+#features_part .left{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 24px;
+}
+
+#features_part .right{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 73px;
+}
+#features_part .right h3{
+    width: 468px;
+}
+#features_part .right h3 .first{
+    color: #727272;
+    font-size: 45px;
+    font-weight: 500;
+}
+
+#features_part .right h3 .second{
+    color:#131313;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+#features_part .right h3 .third{
+    color: rgb(9, 9, 118);
+    font-size: 45px;
+    font-weight: 700;
+}
+
+#features_part .right p{
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    
+    margin: 24px 0 32px;  
+}
+
+#features_part .right button{
+    width: 180px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: linear-gradient(135deg, rgb(20, 38, 120) 60%, rgb(9, 117, 240));
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+/* ==features_part part style start== */
