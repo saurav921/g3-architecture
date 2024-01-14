@@ -147,3 +147,75 @@ header .right a{
     cursor: pointer;
 }
 /* ==features_part part style start== */
+/* ==enjoy_part part style start== */
+#enjoy_part .container{
+    display: flex;
+    justify-content: space-between;
+}
+#enjoy_part .left h3{
+    color:#131313;
+    font-size: 45px;
+    font-weight: 700;
+    width: 468px;
+    margin-top: 30px;
+}
+#enjoy_part .left > p{
+    color:#727272;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 586px;
+    margin: 24px 0 30px;
+}
+#enjoy_part .left .enjoy_description{
+    padding: 30px;
+    column-gap: 20px;
+    transition: .4s;
+}
+#enjoy_part .left .enjoy_description:hover{
+    box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.75);
+}
+#enjoy_part .left .enjoy_description h5{
+    color:#131313;
+    font-size: 20px;
+    font-weight: 600;
+}
+#enjoy_part .left .enjoy_description p{
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 514px;
+}
+
+#enjoy_part .right{
+    position: relative;
+}
+#enjoy_part .right .experience{
+    width: 342px;
+    height: 200px;
+    border-radius: 8px;
+    background: linear-gradient(135deg, rgb(20, 38, 120) 60%, rgb(9, 117, 240));
+    position: absolute;
+    bottom: -77px;
+    left: -92px;
+    text-align: center;
+}
+#enjoy_part .right .experience h2{
+    color: #FFF;
+    text-align: center;
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 70px;
+    justify-content: center;
+    padding-top: 45px;
+}
+#enjoy_part .right .experience h5{
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 40px;
+    text-align: center;
+    justify-content: center;
+}
+/* ==enjoy_part part style end== */
