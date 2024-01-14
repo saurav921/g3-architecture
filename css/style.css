@@ -219,3 +219,79 @@ header .right a{
     justify-content: center;
 }
 /* ==enjoy_part part style end== */
+/* ==facts_part part style ==start */
+#facts_part{
+    padding: 150px 0 100px;
+}
+#facts_part h3{
+    color:#131313;
+    font-size: 45px;
+    font-weight: 700;
+}
+#facts_part p{
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 542px;
+    margin: 24px 0 100px;
+}
+#facts_part .all_facts{
+    display: flex;
+    justify-content: space-between;
+}
+#facts_part .all_facts .facts{
+    width: 240px;
+    padding: 45px 0 60px;
+    border-radius: 8px;
+    border: 1px solid #284bff;
+}
+#facts_part .all_facts img{
+    padding-left: 98px;
+}
+#facts_part .all_facts .facts h4{
+    color: #424242;
+    font-size: 45px;
+    font-weight: 600;
+    text-align: center;
+}
+#facts_part .all_facts .facts h5{
+    color:#727272;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+/* ==facts_part part style end == */
+/* ==sponsor_part part style start == */
+#sponsor_part h3{
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+}
+#sponsor_part p{
+    color: #727272;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 24px 0 45px;
+}
+#sponsor_part .company{
+    display: flex;
+    justify-content: space-between;
+}
+/* ==sponsor_part part style end == */
+/* ==footer_part part style start == */
+footer{
+    padding: 40px 0;
+    margin-top: 130px;
+    background: linear-gradient(135deg, rgb(20, 38, 120) 60%, rgb(9, 117, 240));
+}
+footer p{
+    color:#ffffff;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+}
+/* ==footer_part part style end == */
